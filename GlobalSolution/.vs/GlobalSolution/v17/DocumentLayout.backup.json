@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\dto\\alertrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\dto\\alertrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\controllers\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\controllers\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\controllers\\dangerareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\controllers\\dangerareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\dto\\dangerarearequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\dto\\dangerarearequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\mapping\\dangerareamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\mapping\\dangerareamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\domain\\dangerarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\domain\\dangerarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\mapping\\alertmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\mapping\\alertmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\domain\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\domain\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\migrations\\20250529123338_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\migrations\\20250529123338_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\migrations\\20250528221808_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\migrations\\20250528221808_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\controllers\\shelterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\controllers\\shelterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\mapping\\sheltermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\mapping\\sheltermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\infrastruture\\mapping\\incidentmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\infrastruture\\mapping\\incidentmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\domain\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\domain\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|c:\\users\\cliente\\desktop\\globalsolution\\globalsolution\\domain\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F232907-F998-4D43-BDD6-C61A156824B1}|GlobalSolution\\GlobalSolution.csproj|solutionrelative:globalsolution\\domain\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Dto\\AlertRequest.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Dto\\AlertRequest.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Dto\\AlertRequest.cs*",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Dto\\AlertRequest.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:52:54.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DangerAreaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Dto\\DangerAreaRequest.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Dto\\DangerAreaRequest.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Dto\\DangerAreaRequest.cs",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Dto\\DangerAreaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:38:09.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250529123338_v2.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Migrations\\20250529123338_v2.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Migrations\\20250529123338_v2.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Migrations\\20250529123338_v2.cs",
+              "RelativeToolTip": "GlobalSolution\\Migrations\\20250529123338_v2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:33:38.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlertsController.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\AlertsController.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Controllers\\AlertsController.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\AlertsController.cs*",
+              "RelativeToolTip": "GlobalSolution\\Controllers\\AlertsController.cs*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:08:23.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\Alert.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Domain\\Alert.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\Alert.cs",
+              "RelativeToolTip": "GlobalSolution\\Domain\\Alert.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:22:03.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:38:08.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DangerArea.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\DangerArea.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Domain\\DangerArea.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\DangerArea.cs",
+              "RelativeToolTip": "GlobalSolution\\Domain\\DangerArea.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:28:21.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangerAreaMapping.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\DangerAreaMapping.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Mapping\\DangerAreaMapping.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\DangerAreaMapping.cs",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Mapping\\DangerAreaMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:40:07.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlertMapping.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\AlertMapping.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Mapping\\AlertMapping.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\AlertMapping.cs",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Mapping\\AlertMapping.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:39:42.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250528221808_v1.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Migrations\\20250528221808_v1.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Migrations\\20250528221808_v1.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Migrations\\20250528221808_v1.cs",
+              "RelativeToolTip": "GlobalSolution\\Migrations\\20250528221808_v1.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAUwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:18:08.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DangerAreasController.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\DangerAreasController.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Controllers\\DangerAreasController.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\DangerAreasController.cs*",
+              "RelativeToolTip": "GlobalSolution\\Controllers\\DangerAreasController.cs*",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:08:59.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IncidentsController.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\IncidentsController.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Controllers\\IncidentsController.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\IncidentsController.cs",
+              "RelativeToolTip": "GlobalSolution\\Controllers\\IncidentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:09:41.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SheltersController.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\SheltersController.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Controllers\\SheltersController.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Controllers\\SheltersController.cs",
+              "RelativeToolTip": "GlobalSolution\\Controllers\\SheltersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:11:55.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Program.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Program.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Program.cs",
+              "RelativeToolTip": "GlobalSolution\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:54:35.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\appsettings.json",
+              "RelativeDocumentMoniker": "GlobalSolution\\appsettings.json",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\appsettings.json",
+              "RelativeToolTip": "GlobalSolution\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T21:53:20.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ShelterMapping.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\ShelterMapping.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Mapping\\ShelterMapping.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\ShelterMapping.cs",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Mapping\\ShelterMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:40:36.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IncidentMapping.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\IncidentMapping.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Infrastruture\\Mapping\\IncidentMapping.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Infrastruture\\Mapping\\IncidentMapping.cs",
+              "RelativeToolTip": "GlobalSolution\\Infrastruture\\Mapping\\IncidentMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:41:03.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Incident.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\Incident.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Domain\\Incident.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\Incident.cs",
+              "RelativeToolTip": "GlobalSolution\\Domain\\Incident.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:29:41.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Shelter.cs",
+              "DocumentMoniker": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\Shelter.cs",
+              "RelativeDocumentMoniker": "GlobalSolution\\Domain\\Shelter.cs",
+              "ToolTip": "C:\\Users\\cliente\\Desktop\\GlobalSolution\\GlobalSolution\\Domain\\Shelter.cs",
+              "RelativeToolTip": "GlobalSolution\\Domain\\Shelter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:29:08.212Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
