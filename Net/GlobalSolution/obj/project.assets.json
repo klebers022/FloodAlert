@@ -6804,11 +6804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\GlobalSolution\\GlobalSolution\\GlobalSolution.csproj",
+      "projectUniqueName": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj",
       "projectName": "GlobalSolution",
-      "projectPath": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\GlobalSolution\\GlobalSolution\\GlobalSolution.csproj",
+      "projectPath": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj",
       "packagesPath": "C:\\Users\\klebe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\GlobalSolution\\GlobalSolution\\obj\\",
+      "outputPath": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\klebe\\AppData\\Roaming\\NuGet\\NuGet.Config"
