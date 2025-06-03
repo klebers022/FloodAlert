@@ -101,8 +101,10 @@ GlobalSolution/
 
 ## 👥 Contribuidores
 
-- Nicolas Barutti
-- Nome do seu grupo
+- Kleber da Silva RM- 557887
+- Nicolas Barutti RM- 554944
+- Lucas Rainha RM- 558471
+  
 - FIAP - 2TDS - Global Solution 2025
 
 ## 📜 Licença
