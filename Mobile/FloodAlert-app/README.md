@@ -56,12 +56,13 @@ npm install -g expo-cli
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/flood-alert-mobile.git
+git clone https://github.com/klebers022/FloodAlert.git
 ```
 
 2. Instale as dependências:
 ```bash
-cd flood-alert-mobile
+cd mobile
+cd FloodAlert-app
 npm install
 ```
 
@@ -76,6 +77,14 @@ npx expo start
 
 ### ✅ Observação:
 Para o app funcionar, é necessário que a API .NET esteja rodando, e o IP da API esteja corretamente configurado nos arquivos que fazem requisições (ex.: `HomeScreen.js`, `MapScreen.js`, etc.).
+
+## 👥 Contribuidores
+
+- Kleber da Silva RM- 557887
+- Nicolas Barutti RM- 554944
+- Lucas Rainha RM- 558471
+  
+- FIAP - 2TDS - Global Solution 2025
 
 ## 📄 Licença
 
