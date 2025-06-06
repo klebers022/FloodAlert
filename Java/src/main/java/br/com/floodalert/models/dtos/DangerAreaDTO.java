@@ -3,7 +3,6 @@ package br.com.floodalert.models.dtos;
 import br.com.floodalert.models.Alert;
 import br.com.floodalert.models.DangerArea;
 import br.com.floodalert.models.enums.ThreatLevel;
-import br.com.floodalert.repositories.AlertRepository;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.NotNull;
@@ -11,7 +10,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.UUID;

@@ -8,7 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.GeneratorType;
 
 import java.util.Objects;
 import java.util.UUID;
@@ -42,7 +41,6 @@ public class DangerArea {
     @ManyToOne
     @JoinColumn(name = "alert_id")
     private Alert alert;
-
 
 
     @PrePersist

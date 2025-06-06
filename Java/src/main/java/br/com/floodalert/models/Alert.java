@@ -1,6 +1,6 @@
 package br.com.floodalert.models;
 
-import br.com.floodalert.models.enums.Type;
+import br.com.floodalert.models.enums.AlertType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -35,7 +35,7 @@ public class Alert {
     private String status;
 
     @Enumerated(EnumType.STRING)
-    private Type alertType;
+    private AlertType alertType;
 
     @OneToMany(mappedBy = "alert", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<DangerArea> dangerAreas;

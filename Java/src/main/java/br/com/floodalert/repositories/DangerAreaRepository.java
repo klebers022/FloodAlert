@@ -1,7 +1,6 @@
 package br.com.floodalert.repositories;
 
 
-import br.com.floodalert.models.Alert;
 import br.com.floodalert.models.DangerArea;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,6 +1,6 @@
 package br.com.floodalert.models.enums;
 
-public enum Type {
+public enum AlertType {
     GREEN,
     YELLOW,
     RED,

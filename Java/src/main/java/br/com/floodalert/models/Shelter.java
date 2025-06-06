@@ -1,20 +1,19 @@
 package br.com.floodalert.models;
 
 
+import br.com.floodalert.models.enums.ShelterStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.UUID;
 
 @Entity
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 @Table(name = "SHELTER")
-public class Shelters {
+public class Shelter {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -27,9 +26,12 @@ public class Shelters {
     private Long totalCapacity;
 
     @NotNull
-    private Long totalOcupated;
+    private Long occupiedCapacity;
 
     @NotNull
     private String location;
-    
+
+    @NotNull
+    @Enumerated(EnumType.STRING)
+    private ShelterStatus status;
 }

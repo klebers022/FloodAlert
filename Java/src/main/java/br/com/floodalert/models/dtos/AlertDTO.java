@@ -2,7 +2,7 @@ package br.com.floodalert.models.dtos;
 
 import br.com.floodalert.models.Alert;
 import br.com.floodalert.models.DangerArea;
-import br.com.floodalert.models.enums.Type;
+import br.com.floodalert.models.enums.AlertType;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
@@ -33,7 +32,7 @@ public class AlertDTO{
     private String status;
 
     @NotNull
-    private Type alertType;
+    private AlertType alertType;
 
     private List<UUID> dangerAreasIds;
 
