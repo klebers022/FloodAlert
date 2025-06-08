@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj": {}
+    "C:\\Users\\p\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj": {
+    "C:\\Users\\p\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj",
+        "projectUniqueName": "C:\\Users\\p\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj",
         "projectName": "GlobalSolution",
-        "projectPath": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj",
-        "packagesPath": "C:\\Users\\klebe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klebe\\OneDrive\\Desktop\\FloodAlert\\Net\\GlobalSolution\\obj\\",
+        "projectPath": "C:\\Users\\p\\Desktop\\FloodAlert\\Net\\GlobalSolution\\GlobalSolution.csproj",
+        "packagesPath": "C:\\Users\\p\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p\\Desktop\\FloodAlert\\Net\\GlobalSolution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\klebe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\p\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -88,6 +88,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.0, 9.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.0, 9.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.0, 9.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.0, 9.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

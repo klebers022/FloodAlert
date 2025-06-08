@@ -4,6 +4,8 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls(Environment.GetEnvironmentVariable("ASPNETCORE_URLS") ?? "http://localhost:5149");
+
 // Configuração do Banco Oracle
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
@@ -40,6 +42,13 @@ builder.Services.AddSwaggerGen(swagger =>
 });
 
 var app = builder.Build();
+
+// ** Aplica as migrations automaticamente ao iniciar **
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
 
 // Pipeline
 if (app.Environment.IsDevelopment())
