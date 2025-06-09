@@ -42,8 +42,9 @@ Este repositório contém os arquivos de configuração necessários para a cria
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/floodalert-devops.git
-cd floodalert-devops
+git clone https://github.com/klebers022/floodalert.git
+cd FloodAlert
+cd Devops
 
 # Suba os containers
 docker-compose up --build
@@ -75,6 +76,14 @@ docker pull lucasrainha/floodalert-api
 ## 🧠 Sobre o Projeto
 
 O **FloodAlert** é uma solução integrada para mapeamento, alerta e resposta a eventos de enchentes. Esta configuração DevOps automatiza o ambiente da API e banco de dados para facilitar o desenvolvimento, testes e deploy.
+
+---
+
+## 👥 Contribuidores
+
+- Kleber da Silva RM- 557887
+- Nicolas Barutti RM- 554944
+- Lucas Rainha RM- 558471
 
 ---
 
