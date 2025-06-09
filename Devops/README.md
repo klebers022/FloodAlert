@@ -4,6 +4,12 @@ Este repositório contém os arquivos de configuração necessários para a cria
 
 ---
 
+# Link do vídeo demonstrando o Projeto
+
+🔗 ["YouTube"] (https://youtu.be/rhAE8zvpNX8)
+
+---
+
 ## 📦 Estrutura
 
 - **Dockerfile**: Define o processo de build e publicação da aplicação .NET 9.0.
