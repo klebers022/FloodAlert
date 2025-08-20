@@ -8,32 +8,34 @@ namespace GlobalSolution.Infrastructure.Mapping
     {
         public void Configure(EntityTypeBuilder<Alert> builder)
         {
-            builder.ToTable("Alerts");
-
+            // Chave primária com identidade (SQL Server)
             builder.HasKey(a => a.IdAlert);
+            builder.Property(a => a.IdAlert)
+                   .ValueGeneratedOnAdd();
 
+            // Propriedades
             builder.Property(a => a.Title)
-                .IsRequired()
-                .HasMaxLength(100);
+                   .IsRequired()
+                   .HasMaxLength(100);
 
             builder.Property(a => a.Description)
-                .IsRequired()
-                .HasMaxLength(500);
+                   .IsRequired()
+                   .HasMaxLength(500);
 
             builder.Property(a => a.Date)
-                .IsRequired();
+                   .IsRequired(); // atenção: "Date" é reservada no SQL Server, mas funciona se não houver conflito
 
             builder.Property(a => a.Type)
-                .IsRequired()
-                .HasMaxLength(50);
+                   .IsRequired()
+                   .HasMaxLength(50);
 
             builder.Property(a => a.Status)
-                .IsRequired()
-                .HasMaxLength(50);
+                   .IsRequired()
+                   .HasMaxLength(50);
 
-            // Corrigido: d.Alert removido
+            // Relacionamento
             builder.HasMany(a => a.DangerAreas)
-                   .WithOne() // sem propriedade de navegação em DangerArea
+                   .WithOne() // se DangerArea não tiver propriedade de navegação
                    .HasForeignKey(d => d.IdAlert)
                    .OnDelete(DeleteBehavior.Cascade);
         }

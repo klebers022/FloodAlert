@@ -9,7 +9,7 @@ builder.WebHost.UseUrls(Environment.GetEnvironmentVariable("ASPNETCORE_URLS") ??
 // Configuração do Banco Oracle
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseOracle(builder.Configuration.GetConnectionString("Oracle"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AzureSqlConnection"));
 });
 
 // Configuração do CORS
@@ -43,12 +43,6 @@ builder.Services.AddSwaggerGen(swagger =>
 
 var app = builder.Build();
 
-// ** Aplica as migrations automaticamente ao iniciar **
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
-}
 
 // Pipeline
 if (app.Environment.IsDevelopment())

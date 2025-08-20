@@ -3,8 +3,8 @@ using System;
 using GlobalSolution.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Oracle.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
@@ -17,35 +17,39 @@ namespace GlobalSolution.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.15")
+                .HasAnnotation("ProductVersion", "9.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("Projeto.Domain.Alert", b =>
                 {
                     b.Property<Guid>("IdAlert")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("RAW(16)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("TIMESTAMP(7)");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Type")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("IdAlert");
 
@@ -56,26 +60,30 @@ namespace GlobalSolution.Migrations
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("RAW(16)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Coordinates")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<Guid>("IdAlert")
-                        .HasColumnType("RAW(16)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("ThreatLevel")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -88,26 +96,30 @@ namespace GlobalSolution.Migrations
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("RAW(16)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Coordinates")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("TIMESTAMP(7)");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Type")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -118,24 +130,26 @@ namespace GlobalSolution.Migrations
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("RAW(16)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Location")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("NumberOccupied")
-                        .HasColumnType("NUMBER(10)");
+                        .HasColumnType("int");
 
                     b.Property<bool>("Status")
-                        .HasColumnType("NUMBER(1)");
+                        .HasColumnType("bit");
 
                     b.Property<int>("TotalCapacity")
-                        .HasColumnType("NUMBER(10)");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -144,11 +158,13 @@ namespace GlobalSolution.Migrations
 
             modelBuilder.Entity("Projeto.Domain.DangerArea", b =>
                 {
-                    b.HasOne("Projeto.Domain.Alert", null)
+                    b.HasOne("Projeto.Domain.Alert", "Alert")
                         .WithMany("DangerAreas")
                         .HasForeignKey("IdAlert")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Alert");
                 });
 
             modelBuilder.Entity("Projeto.Domain.Alert", b =>

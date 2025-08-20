@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "TV5/L0/HfgXyD0QVofvfhrtu7vIQJo3u6vvW5sZBl6g=",
-  "Source": "GlobalSolution",
-  "BasePath": "_content/GlobalSolution",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"TV5/L0/HfgXyD0QVofvfhrtu7vIQJo3u6vvW5sZBl6g=","Source":"GlobalSolution","BasePath":"_content/GlobalSolution","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

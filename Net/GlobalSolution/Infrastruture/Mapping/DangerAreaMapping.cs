@@ -8,30 +8,32 @@ namespace GlobalSolution.Infrastructure.Mapping
     {
         public void Configure(EntityTypeBuilder<DangerArea> builder)
         {
-            builder.ToTable("DangerAreas");
-
+            // Chave primária com identidade (SQL Server)
             builder.HasKey(d => d.Id);
+            builder.Property(d => d.Id)
+                   .ValueGeneratedOnAdd();
 
+            // Propriedades
             builder.Property(d => d.Name)
-                .IsRequired()
-                .HasMaxLength(100);
+                   .IsRequired()
+                   .HasMaxLength(100);
 
             builder.Property(d => d.Description)
-                .IsRequired()
-                .HasMaxLength(500);
+                   .IsRequired()
+                   .HasMaxLength(500);
 
             builder.Property(d => d.ThreatLevel)
-                .IsRequired()
-                .HasMaxLength(50);
+                   .IsRequired()
+                   .HasMaxLength(50);
 
             builder.Property(d => d.Coordinates)
-                .IsRequired()
-                .HasMaxLength(200);
+                   .IsRequired()
+                   .HasMaxLength(200);
 
             builder.Property(d => d.IdAlert)
-                .IsRequired();
+                   .IsRequired();
 
-            // Relacionamento com propriedade de navegação
+            // Relacionamento
             builder.HasOne(d => d.Alert)
                    .WithMany(a => a.DangerAreas)
                    .HasForeignKey(d => d.IdAlert)

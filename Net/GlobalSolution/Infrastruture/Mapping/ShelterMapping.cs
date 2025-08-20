@@ -8,26 +8,28 @@ namespace GlobalSolution.Infrastructure.Mapping
     {
         public void Configure(EntityTypeBuilder<Shelter> builder)
         {
-            builder.ToTable("Shelters");
-
+            // Chave primária com identidade (SQL Server)
             builder.HasKey(s => s.Id);
+            builder.Property(s => s.Id)
+                   .ValueGeneratedOnAdd();
 
+            // Propriedades
             builder.Property(s => s.Name)
-                .IsRequired()
-                .HasMaxLength(100);
+                   .IsRequired()
+                   .HasMaxLength(100);
 
             builder.Property(s => s.TotalCapacity)
-                .IsRequired();
+                   .IsRequired();
 
             builder.Property(s => s.NumberOccupied)
-                .IsRequired();
+                   .IsRequired();
 
             builder.Property(s => s.Location)
-                .IsRequired()
-                .HasMaxLength(200);
+                   .IsRequired()
+                   .HasMaxLength(200);
 
             builder.Property(s => s.Status)
-                .IsRequired();
+                   .IsRequired();
         }
     }
 }
